@@ -5,7 +5,7 @@ let replace_word = "It was NOT";
 let altered_text; 
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(windowWidth, windowHeight);
   // replace substitute word in string 
   altered_text = source_text.replaceAll (search_word,replace_word );
   
